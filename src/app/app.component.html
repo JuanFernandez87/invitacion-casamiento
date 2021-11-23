@@ -1,0 +1,85 @@
+<router-outlet></router-outlet>
+
+<!--IMAGEN PRESENTACIÓN!-->
+
+<div class="card bg-dark text-white">
+  <img src="assets/images/portada.jpg" class="card-img" alt="...">
+  <!--<div class="card-img-overlay" style="text-align:center">
+    <h5 class="boda">¡Nuestra boda!</h5>
+    <h1 class="nombres">Laura y Juan</h1>
+  </div>-->
+</div>
+
+<!--APLICACIÓN DE CONTADOR!-->
+<app-timer></app-timer>
+
+<!--ICONOS DE CEREMONIA Y FIESTA!-->
+<div class="container text-center" style="margin-top: 20px; display: flex; justify-content: center">
+  <!--<div class="card mt-2 text-center">!-->
+    <div class="card-body" style="width:10%">
+      <img src="assets/icons/iglesia.png" style="max-width:35%">
+      <h5 class="card-title" style="margin-top:30px; font-family: Julius; font-weight: bold;">Ceremonia</h5>
+      <p class="card-text" style="font-family: Julius; font-weight: bold;">La ceremonia se realizará el 12 de Febrero a las 19:00 horas en las casuarinas</p>
+    </div>
+
+
+    <div class="card-body" style="width:10%">
+      <img src="assets/icons/fiesta.png" style="max-width:35%">
+      <h5 class="card-title" style="margin-top:30px; font-family: Julius; font-weight: bold;">Fiesta</h5>
+      <p class="card-text" style="font-family: Julius; font-weight: bold;">Después de la ceremonia festejaremos en el mismo lugar</p>
+    </div>
+  <!--</div>!-->
+</div>
+
+<!--BOTON DE UBICACIÓN!-->
+<div style="text-align: center; margin-top:10px;">
+  <p class="card-text" style="margin-top: 40px; font-family: Julius; font-weight: bold;">Tocá el botón de abajo para recibir las indicaciones para llegar</p>
+  <div class="example-button-row">
+    <a mat-raised-button style="border: none; border-radius: 100px; background-color: #b2cbb1; font-family: Julius; font-weight: bold;" target="_blank" href="https://www.google.com.ar/maps/place/Las+Casuarinas/@-34.9655389,-57.9595753,17z/data=!4m5!3m4!1s0x95a2e8f97cba46b1:0x87d586b1f32f3b5c!8m2!3d-34.9634558!4d-57.9563263">UBICACIÓN A "LAS CASUARINAS"</a>
+  </div>
+</div>
+
+<div class="container text-center py-5" style="padding-right: 0px; padding-left: 0px">
+  <div class="card-columns mt-4">
+    <div class="card" >
+      <img class="card-img-top" src="assets/images/portada2.jpg">
+    </div>
+  </div>
+
+  <!--FOTOS 2 X 3!-->
+  <div class="card-group">
+    <div class="card">
+      <img src="assets/images/2.jpg" class="card-img-top" alt="...">
+    </div>
+    <div class="card" style="margin:5px;">
+      <img src="assets/images/4.jpg"class="card-img-top" alt="...">
+    </div>
+    <div class="card" style="margin:5px;">
+      <img src="assets/images/17.jpg" class="card-img-top" alt="...">
+    </div>
+  </div>
+
+  <div class="card-group" style="margin:5px;">
+    <div class="card" style="margin:5px;">
+      <img src="assets/images/32.jpg" class="card-img-top" alt="...">
+    </div>
+    <div class="card" style="margin:5px;">
+      <img src="assets/images/36.jpg"class="card-img-top" alt="...">
+    </div>
+    <div class="card" style="margin:5px;">
+      <img src="assets/images/37.jpg" class="card-img-top" alt="...">
+    </div>
+  </div>
+<div>
+
+<app-regalo></app-regalo>
+
+<!--CONFIRMACIÓN DE ASISTENCIA!-->  
+<div style="margin-top: 40px;">
+  <h1 style="font-family: Julius; font-weight: bold">¡Esperamos que seas parte de esta gran celebración!</h1>
+  <!--div class="example-button-row">
+    <a mat-raised-button style="border: none; border-radius: 100px; background-color: #b2cbb1; font-family: Julius; font-weight: bold" target="_blank"href="https://docs.google.com/forms/d/1qLj7t-PjzVB3DjYPbNUFs7tNFveq2uTECCIWR9Blme8/prefill">CONFIRMAR ASISTENCIA</a>
+  </div-->
+</div>
+
+<app-footer></app-footer>

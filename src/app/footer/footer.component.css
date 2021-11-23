@@ -1,0 +1,27 @@
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #b2cbb1;
+    height: 80px; 
+    font-family: Julius;
+    font-weight: bold;   
+  }
+    
+  .time-countdown p{
+    text-align: center;
+    color: black;
+  }
+    
+  .radius {
+    border-radius: 5px;
+  }
+    
+  *, ::after, ::before {
+    box-sizing: content-box;
+  }
+
+  p{
+    font-size: 15px;
+  }

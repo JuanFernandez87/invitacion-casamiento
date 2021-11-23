@@ -1,0 +1,10 @@
+head {
+  font-family: 'Julius';
+}
+
+body{
+  background-image: white;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: 'Julius'}

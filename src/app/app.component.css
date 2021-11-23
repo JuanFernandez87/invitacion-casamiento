@@ -1,0 +1,45 @@
+/* Por debajo de 2135px */
+@media screen and (max-width: 2135px){
+     *{
+          max-width: 100%;
+     }
+     .boda{
+     margin-top: 90px;           
+     font-size: 12px;
+     }
+     .nombres{
+     margin-top: 20px;
+     font-family: AmalfiCoast;
+     font-size: 40px;
+     }
+}
+
+/* Por debajo de 1280px */
+@media screen and (max-width: 1280px){
+    *{
+          max-width: 100%;
+    }
+     .boda{
+    margin-top: 80px;        
+    font-size:10px;
+    }
+    .nombres{
+    font-family: AmalfiCoast;
+    font-size: 40px;
+    }
+}
+
+/* Por debajo de 400px */
+@media screen and (max-width: 400px){
+     *{
+          max-width: 100%;
+     } 
+     .boda{
+     margin-top: 70px;        
+     font-size:10px;
+     }
+     .nombres{
+     font-family: AmalfiCoast;
+     font-size: 35px;
+     }
+}

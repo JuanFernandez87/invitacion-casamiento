@@ -1,0 +1,7 @@
+@font-face {
+    font-family: AmalfiCoast;
+    src: url("/assets/font/AmalfiCoast.ttf") format("truetype");
+
+    font-family: Julius;
+    src: url("/assets/font/JuliusSansOne-Regular.ttf") format("truetype");
+}
